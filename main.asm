@@ -7,7 +7,7 @@ section .data
     subAmt dq 32.0
     fmt db "%lf C", 0xd, 0xa, 0
 
-    wrongNumOfArgsError db "Incorrect usage", 0xd, 0xa, 0
+    wrongNumOfArgsError db "Incorrect usage. Correct usage: ftoc <Your float value>", 0xd, 0xa, 0
 
 section .text
     extern printf
